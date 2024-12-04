@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Jost", sans-serif;
+}
+/* Barra de navegación */
+.navbar {
+    padding: 0.5rem;
+    
+    -box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Añadir sombra */
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .nav-link i {
+    font-size: 1.2em; 
+    margin-right: 5px; 
+} */
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link i {
+    font-size: 1.1em;
+    margin-bottom: 0.2rem;
+}
+
+.nav-link span {
+    font-size: 0.9em;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav a {
+    color: #041e42;
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0 1rem;
+}
+
+.navbar-nav a:hover {
+    color: #09f;
+    text-decoration: underline;
+}
+
+.active {
+    text-shadow: 4px 1px 7px #0099ff72;
+}
+
+/* Seccion de Inicio */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.inicio, .content-servicios {
+    min-height: 450px;
+    text-align: center;
+}
+
+.serviscan{
+    margin-left: 10px;
+    width: 100px;
+    height: 20px;
+}
+
+.logoServiscan {
+    width: 50px;
+    height: 50px;
+}
+
+.card {
+    width: 18rem;
+}
+
+.card h3 {
+    font-size: 1.4rem;
+}
+                 
+
+/* Baneer de Inicio */
+
+.content-banner {
+    background-image: linear-gradient(20deg, #303030, #00000020), url("../img/camiones.jpg");
+    height: 35rem;
+    background-size: cover;
+    background-position: top;
+}
+
+.content-banner {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 100vh; 
+  }
+
+.inicio h1 {
+    color: #fcfcfd; 
+    text-shadow: 2px 2px 4px #00000085;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.inicio h2 {
+    color: #e0e0e0;
+    text-shadow: 1px 1px 2px #000000bb;
+    font-size: 2rem;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6rem;
+    margin-top: 2rem;
+}
+
+
+.img-tarjeta {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+/* Seccion nuestros servicios */
+.inicio, .servicios {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.content-servicios {
+    max-width: 100%;
+    background-image: linear-gradient(20deg, #303030, #00000000), url("../img/llave.jpeg");
+    background-size: cover;
+    min-height: 15rem;
+    background-position: center;
+}
+.content-servicios h2 {
+    color: #fcfcfd; 
+    text-shadow: 2px 2px 4px #00000085;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.content-servicios {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100%; 
+    text-align: center; 
+}
+
+.bienvenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.bienvenido p {
+    font-size: 1.3rem;
+    margin: 1rem auto;
+    width: 60%;
+    text-align: justify;
+}
+
+.bienvenido button {
+    margin: auto;
+    margin-bottom: 2.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #041e42;
+    color: #fcfcfd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bienvenido button:hover {
+    background-color: #09f;
+}
+
+.items-servicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.items-servicios h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #041e42b6;
+    text-align: left;
+    border-bottom: 1px solid #041e42;
+}
+
+.items-servicios h2 {
+    font-size: 1.5rem;
+    color: #041e42;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.items-servicios img {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-servicio {
+    width: 480px;
+    height: 310px;
+}
+.items-servicios ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.items-servicios li {
+    font-size: 1.2rem;
+    margin: .5rem 0;
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.nosotros-mv {
+    margin-top: 4rem;
+}
+
+.nosotros h2, .contacto h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #041e42b6;
+    text-align: left;
+    border-bottom: 1px solid #041e42;
+    margin-top: 4rem;
+}
+
+/* Seccion de contacto */
+.contacto {
+    background-color: #fcfcff; 
+    padding: 60px 0; 
+}
+
+/* .contacto h2 {
+    color: #041e42b6; 
+    margin-bottom: 30px; 
+} */
+
+.contacto p {
+    color: #6c757d; 
+}
+  
+/* Estilos para el Formulario */
+.contacto form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+  
+.contacto .form-label {
+    font-weight: bold; 
+}
+  
+.contacto .form-control {
+    border-radius: 5px; 
+    border: 1px solid #ced4da;
+}
+  
+.contacto .form-control:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+  
+.contacto .btn-primary {
+    background-color: #007bff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    transition: background-color 0.2s; 
+}
+  
+.contacto .btn-primary:hover {
+    background-color: #0056b3; 
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width:70%; 
+    aspect-ratio:16/9;
+    border:0;
+}
+
+/* Sescion pie de pagina */
+footer {
+    margin-top: 2rem; 
+}
+
+footer .iconos-footer {
+    display: flex;
+    margin-top: 2px;
+
+}
+
+footer a {
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.content-redes {
+    max-width: 500px;
+}
+
+.derechos {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+/* Adaptable diseño responsivo */
+@media screen and (max-width: 600px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media (max-width: 765px) {
+    .navbar {
+      justify-content: center; /* Centra los elementos del navbar */
+    }
+    .navbar-brand {
+      position: relative; /* Posiciona el logo de manera absoluta para centrarlo */
+      left: 50%; 
+      transform: translateX(-50%); /* Ajusta el logo para que esté perfectamente centrado */
+    }
+}
