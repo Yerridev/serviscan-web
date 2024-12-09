@@ -19,6 +19,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
         <!-- Estilos -->
         <link rel="stylesheet" href="./public/css/stylesUser.css">
+        <link rel="stylesheet" href="./public/css/login.css">
     </head>
     <body>
         <!-- Navbar -->
@@ -61,7 +62,7 @@
                       </a>
                   </li>
                   <li class="nav-item text-center">
-                      <a class="nav-link" href="#iniciar-sesion">
+                      <a class="nav-link" href="#login">
                           <i class="fas fa-user"></i> <!-- Icono de inicio de sesión -->
                           <span>Inciar Sesión</span>
                       </a>
